@@ -5,7 +5,7 @@ import pandas as pd
 
 # Data source:
 # https://www.kaggle.com/sveneschlbeck/resale-flat-prices-in-singapore
-data_path = Path(__file__).parents[0] / "flat-prices.csv"
+data_path = Path(__file__).parents[0] / "flat-prices.zip"
 
 
 def to_mb(bytes: float) -> float:
